@@ -1,0 +1,58 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;*/
+
+body {
+    background-image: url("./Assets/salads.jpg");
+    /*height: 100vh;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav {
+    background-color: rgba(89, 231, 45, 50%);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+p {
+    margin-left: 2%;
+}
+a:hover {
+    color: crimson;
+    padding: 3px 3px 0px 3px;
+    background-color: rgba(20, 20, 20, 0.5);
+    border: red
+}   
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 3px;
+}
+#about {
+    text-align: center;
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 24px;
+}
+#product {
+    display: flex;
+    height: 400px;
+}
+#product div {
+    padding: 10px, 20px, 10px, 20px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+#product>div {
+    background-color: burlywood;
+    opacity: 0.9;
+}
+footer {
+    background-color: burlywood;
+    opacity:0.9;
+    padding: 10px;
+    margin: 50px;
+    float: auto;
+    text-align: center;
+}

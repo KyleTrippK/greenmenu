@@ -3,7 +3,6 @@ font-family: 'Pacifico', cursive;*/
 
 body {
     background-image: url("./Assets/salads.jpg");
-    /*height: 100vh;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
